@@ -1,0 +1,17 @@
+:root {
+--prymary-text-color: #212121;
+--title-text-color: #757575;
+--accent-text-color: #2196F3;
+}
+
+body {
+ font-family: Roboto    
+}
+
+.logo {
+    font-family: Raleway;
+}
+
+.logo-web {
+    color: var(--accent-text-color)
+}
