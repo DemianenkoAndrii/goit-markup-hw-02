@@ -2,6 +2,7 @@
   --prymary-text-color: #212121;
   --title-text-color: #757575;
   --accent-text-color: #2196f3;
+  --hero-text-color: #ffffff;
 }
 
 body {
@@ -10,20 +11,49 @@ body {
 }
 
 .logo {
+  color: var(--prymary-text-color);
   font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
 }
 
 .logo-web {
   color: var(--accent-text-color);
 }
 
-.nav-list {
+.link-nav {
+  color: var(--prymary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+}
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--accent-text-color);
+}
+
+.link-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.contacts .link-contact {
+  color: var(--title-text-color);
+}
+
+.link-contact:hover,
+.link-contact:focus {
+  color: var(--accent-text-color);
 }
 
 li {
   list-style: none;
 }
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -31,9 +61,103 @@ li {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+/* hero */
+.title-hero {
+  color: var(--hero-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.button-hero {
+  color: var(--hero-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+.button-hero:hover,
+.button-hero:focus {
+  color: var(--accent-text-color);
+}
+
+/* фічі (benefits) */
+.benefits {
+  color: var(--prymary-text-color);
+  font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+}
+.benefits-text {
+  color: var(--title-text-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+
+/* фото */
+.photo-title {
+  color: var(--prymary-text-color);
+  font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+}
+
+/* члени команди */
+.team-title {
+   color: var(--prymary-text-color);
+  font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+}
+.team-name {
+  color: var(--prymary-text-color);
+  font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+}
+.team-position {
+  color: var(--title-text-color);
+  font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}
+
+/* Footer */
+.logo-footer {
+  color: var(--hero-text-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+}
+.address-footer {
+  color: var(--hero-text-color);
+  font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+font-style: normal;
+text-decoration: none;
+}
+.link-footer {
+  color: var(--title-text-color);
+  font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+opacity: 0.6;
+font-style: normal;
+text-decoration: none;
+}
+.address-footer:hover,
+.address-footer:focus {
+  color: var(--accent-text-color);
+}
+.link-footer:hover, .link-footer:focus {
+  color: var(--accent-text-color);
 }
