@@ -13,7 +13,6 @@ body {
 .logo {
   color: var(--prymary-text-color);
   font-family: Raleway;
-  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
@@ -75,28 +74,30 @@ li {
   line-height: 60px;
 }
 
+.section-hero {
+  background-color: #2F303A;
+}
 .button-hero {
   color: var(--hero-text-color);
-  font-weight: 700;
+  background-color: var(--accent-text-color);
+  font-family:inherit;
   font-size: 16px;
   line-height: 30px;
   cursor: pointer;
 }
 .button-hero:hover,
 .button-hero:focus {
-  color: var(--accent-text-color);
+  background-color: var(--title-text-color);
 }
 
 /* фічі (benefits) */
 .benefits {
   color: var(--prymary-text-color);
-  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
 }
 .benefits-text {
   color: var(--title-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
 }
@@ -104,7 +105,6 @@ li {
 /* фото */
 .photo-title {
   color: var(--prymary-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
 }
@@ -112,7 +112,6 @@ li {
 /* члени команди */
 .team-title {
   color: var(--prymary-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
 }
@@ -124,23 +123,23 @@ li {
 }
 .team-position {
   color: var(--title-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
 }
 
 /* Footer */
+.footer {
+  background-color: #2F303A;
+}
 .logo-footer {
   color: var(--hero-text-color);
   font-family: Raleway;
-  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
 }
 .address-footer {
   color: var(--hero-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   font-style: normal;
@@ -148,7 +147,6 @@ li {
 }
 .link-footer {
   color: var(--title-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   opacity: 0.6;
@@ -185,14 +183,12 @@ li {
 
 .title-portfolio {
   color: var(--prymary-text-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: 36px;
 }
 
 .description-portfolio {
   color: var(--title-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
 }
