@@ -80,6 +80,7 @@ li {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
+  cursor: pointer;
 }
 .button-hero:hover,
 .button-hero:focus {
@@ -90,42 +91,42 @@ li {
 .benefits {
   color: var(--prymary-text-color);
   font-weight: 700;
-font-size: 14px;
-line-height: 16px;
+  font-size: 14px;
+  line-height: 16px;
 }
 .benefits-text {
   color: var(--title-text-color);
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 /* фото */
 .photo-title {
   color: var(--prymary-text-color);
   font-weight: 700;
-font-size: 36px;
-line-height: 42px;
+  font-size: 36px;
+  line-height: 42px;
 }
 
 /* члени команди */
 .team-title {
-   color: var(--prymary-text-color);
+  color: var(--prymary-text-color);
   font-weight: 700;
-font-size: 36px;
-line-height: 42px;
+  font-size: 36px;
+  line-height: 42px;
 }
 .team-name {
   color: var(--prymary-text-color);
   font-weight: 500;
-font-size: 16px;
-line-height: 19px;
+  font-size: 16px;
+  line-height: 19px;
 }
 .team-position {
   color: var(--title-text-color);
   font-weight: 400;
-font-size: 16px;
-line-height: 19px;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 /* Footer */
@@ -140,24 +141,58 @@ line-height: 19px;
 .address-footer {
   color: var(--hero-text-color);
   font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-font-style: normal;
-text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+  text-decoration: none;
 }
 .link-footer {
   color: var(--title-text-color);
   font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-opacity: 0.6;
-font-style: normal;
-text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.6;
+  font-style: normal;
+  text-decoration: none;
 }
 .address-footer:hover,
 .address-footer:focus {
   color: var(--accent-text-color);
 }
-.link-footer:hover, .link-footer:focus {
+.link-footer:hover,
+.link-footer:focus {
   color: var(--accent-text-color);
+}
+
+/* PORTFOLIO */
+
+.button-portfolio {
+  color: var(--prymary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.button-portfolio:hover {
+  color: var(--hero-text-color);
+  background-color: var(--accent-text-color);
+}
+
+.button-portfolio:focus {
+  color: var(--accent-text-color);
+}
+
+.title-portfolio {
+  color: var(--prymary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.description-portfolio {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
 }
