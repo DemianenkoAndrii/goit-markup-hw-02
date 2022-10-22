@@ -6,15 +6,19 @@
 }
 
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   color: var(--prymary-text-color);
+}
+
+button {
+  font-family: inherit;
 }
 
 .logo {
   color: var(--prymary-text-color);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   text-decoration: none;
 }
 
@@ -26,7 +30,7 @@ body {
   color: var(--prymary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-decoration: none;
 }
 .link-nav:hover,
@@ -34,10 +38,14 @@ body {
   color: var(--accent-text-color);
 }
 
+.nav-list .link-nav.current {
+  color: var(--accent-text-color);
+} 
+
 .link-contact {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-decoration: none;
 }
 
@@ -71,7 +79,7 @@ li {
   color: var(--hero-text-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
 }
 
 .section-hero {
@@ -82,7 +90,7 @@ li {
   background-color: var(--accent-text-color);
   font-family:inherit;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   cursor: pointer;
 }
 .button-hero:hover,
@@ -94,37 +102,37 @@ li {
 .benefits {
   color: var(--prymary-text-color);
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
 }
 .benefits-text {
   color: var(--title-text-color);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
 }
 
 /* фото */
 .photo-title {
   color: var(--prymary-text-color);
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
 }
 
 /* члени команди */
 .team-title {
   color: var(--prymary-text-color);
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
 }
 .team-name {
   color: var(--prymary-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
 }
 .team-position {
   color: var(--title-text-color);
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
 }
 
 /* Footer */
@@ -135,20 +143,20 @@ li {
   color: var(--hero-text-color);
   font-family: Raleway;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   text-decoration: none;
 }
 .address-footer {
   color: var(--hero-text-color);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   font-style: normal;
   text-decoration: none;
 }
 .link-footer {
   color: var(--title-text-color);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   opacity: 0.6;
   font-style: normal;
   text-decoration: none;
@@ -168,7 +176,7 @@ li {
   color: var(--prymary-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   cursor: pointer;
 }
 
@@ -184,11 +192,11 @@ li {
 .title-portfolio {
   color: var(--prymary-text-color);
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 }
 
 .description-portfolio {
   color: var(--title-text-color);
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
 }
