@@ -89,13 +89,14 @@ li {
   color: var(--hero-text-color);
   background-color: var(--accent-text-color);
   font-family:inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   cursor: pointer;
 }
 .button-hero:hover,
 .button-hero:focus {
-  background-color: var(--title-text-color);
+  background-color: #188CE8;;
 }
 
 /* фічі (benefits) */
@@ -199,4 +200,8 @@ li {
   color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.88;
+}
+
+.link-title-portfolio {
+  text-decoration: none;
 }
